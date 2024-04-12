@@ -1,0 +1,111 @@
+
+
+body {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(img/judas-tree-8685211_1920.jpg);
+}
+
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px 2px #c30026;
+}
+
+/* .add_task_button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add_task_button:hover {
+    background-color: #45a049;
+} */
+
+.delete_button{
+    background-color: red;
+    color: white;
+}
+
+.delete_button:hover{
+    background-color: darkred;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 13px;
+    margin-bottom: 23px;
+    background-color: #fff;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 2px pink;
+}
+
+
+
+
+
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #c30026;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+  width: 100%;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+  cursor: pointer;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
